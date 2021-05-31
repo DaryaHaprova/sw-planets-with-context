@@ -1,4 +1,4 @@
-#List of Star Wars Planets
+# List of Star Wars Planets
 
 ## Available Scripts
 
