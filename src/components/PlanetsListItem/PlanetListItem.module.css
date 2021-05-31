@@ -1,0 +1,20 @@
+.planetItem {
+    color: #191414;
+    font-size: 20px;
+    background-color: #FAE62D;
+    display: inline-block;
+    padding: 5px;
+    cursor: pointer;
+    margin: 2px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.planetItem:hover {
+    opacity: 0.8;
+}
+
+.active {
+    background-color: #faa030;
+}
+

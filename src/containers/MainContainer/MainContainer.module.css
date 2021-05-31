@@ -1,0 +1,13 @@
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    min-height: calc(100vh - 185px);
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.planetsList {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
