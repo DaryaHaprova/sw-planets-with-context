@@ -2,7 +2,8 @@ import React, { useContext, useEffect, useState } from 'react'
 
 import styles from './MainContainer.module.css'
 
-import { PlanetsListItem, PlanetDescription, PlanetsContext } from 'components'
+import { PlanetsListItem, PlanetDescription } from 'components'
+import { PlanetsContext } from '../../state'
 import { IPlanet } from 'types'
 
 export const MainContainer = () => {
