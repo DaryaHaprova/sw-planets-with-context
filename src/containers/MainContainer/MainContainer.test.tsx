@@ -2,7 +2,7 @@ import React from 'react'
 import { MainContainer } from './MainContainer'
 import { render } from '@testing-library/react'
 import GetPlanetsMock from 'data/GetPlanetsMock'
-import { PlanetsContext } from 'components'
+import { PlanetsContext } from 'state'
 
 describe('MainContainer', () => {
     it('render loading if pending is true', () => {

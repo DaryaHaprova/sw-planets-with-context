@@ -1,6 +1,7 @@
 import { MainContainer } from 'containers/MainContainer'
 
-import { Header, Footer, PlanetsProvider } from 'components'
+import { Header, Footer } from 'components'
+import { PlanetsProvider } from 'state'
 
 export const App = () => {
     return (
