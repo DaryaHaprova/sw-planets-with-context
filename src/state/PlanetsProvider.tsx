@@ -27,14 +27,10 @@ export const PlanetsProvider = ({ children }: Props) => {
         error,
     } = useSWR('api/planets', getPlanets)
 
-    const [active, setActive] = useState<number>(0)
-
     const contextValue = {
         pending,
         planets: data,
         error,
-        active,
-        setActive,
     }
 
     return (
